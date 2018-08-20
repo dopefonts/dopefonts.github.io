@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Free And Open Source Web Typography Framework">
+    <meta name="author" content="Kshitij Bombarde">
+
+    <title>Dope Fonts | fonts</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dopefonts.css">
+
+  </head>
+
+  <body ng-app="" id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dope-purple fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Dope Fonts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link df-white" href="fonts.html">Fonts</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="format.html">Style</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="plugs.html">Plugins</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="effects.html">Effects</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="samples.html">Examples</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="changelog.html">Whats New ?</a> </li>
+            <li class="nav-item"> <a class="nav-link df-white" href="http://www.dopefonts.blogspot.com">Blog</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-dope-grey text-white">
+      <div class="container text-center">
+        <h1 class="bungee-inline df-60 df-dark-grey">FONTS</h1>
+        <p class="lead courgette df-black">All the font classes in dopefonts.css and how to implement them</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <br><br>
+      <div class="row">
+        <div class="col-sm-12">
+        <h1 class="fedoreka">Download and Link Your CSS to html</h1>
+        <script src="https://gist.github.com/dopefonts/5e8f0ae82236b8d049e255ccd6cb0f20.js"></script>
+
+        <h3>Instructions to use</h3>
+        <ul>
+        <li class="df-14">Below are the Previews of supported fonts.</li>
+        <li class="df-14">Every item in cell is the font name and it is also the class name.</li>
+        <li class="df-14">Use the following classes to call your fonts <b>always mention class name in lower-case.</b></li>
+        </ul>
+            <p class="df-14">See the below example</p>
+            <script src="https://gist.github.com/dopefonts/01ec23e22bca2ba8badac34bba6ac807.js"></script>
+      </div>
+      <div>
+      	<h1 class="fedoreka">Predefined Font Classes</h1>
+      	<div class="container df-28">
+	<br>
+<div class="col-sm-12">
+	<form class="form-inline">
+		<label>Select Font Type</label> &nbsp;&nbsp;&nbsp;
+		<select ng-model="filter" ng-init="filter = 1"  class="form-control col-sm-6">
+			<option id="1" value="1">Serif</option>
+			<option value="2">Sans Serif</option>
+			<option value="3">Display</option>
+			<option value="4">Handwriting</option>
+			<option value="5">Monospace</option>
+		</select>
+	</form>
+</div>
+<br>
+<!--Serif Fonts-->
+<div ng-switch="filter">
+<div ng-switch-when="1">
+<div class="row">	
+<div class="border col-sm-3 merriweather">merriweather</div>
+<div class="border col-sm-3 playfair-display">playfair-display</div>
+<div class="border col-sm-3 crimson-text">crimson-text</div>
+<div class="border col-sm-3 keron">keron</div>
+<div class="border col-sm-3 suez-one">suez-one</div>
+<div class="border col-sm-3 holtwood-one">holtwood-one</div>
+<div class="border col-sm-3 cutive">cutive</div>
+<div class="border col-sm-3 coustard">coustard</div>
+<div class="border col-sm-3 slabo">slabo</div>
+<div class="border col-sm-3 roboto-slab">roboto-slab</div>
+<div class="border col-sm-3 lora">lora</div>
+<div class="border col-sm-3 pt-serif">pt-serif</div>
+<div class="border col-sm-3 bitter">bitter</div>
+<div class="border col-sm-3 arvo">arvo</div>
+<div class="border col-sm-3 bree-serif">bree-serif</div>
+<div class="border col-sm-3 garamond">garamond</div>
+<div class="border col-sm-3 cerete-round">crete-round</div>
+<div class="border col-sm-3 rokkitt">rokkitt</div>
+<div class="border col-sm-3 cinzel">cinzel</div>
+<div class="border col-sm-3 old-standard-tt">old-standard-tt</div>
+<div class="border col-sm-3 domine">domine</div>
+<div class="border col-sm-3 noticia">noticia</div>
+<div class="border col-sm-3 cardo">cardo</div>
+<div class="border col-sm-3 amiri">amiri</div>
+<div class="border col-sm-3 volkhov">volkhov</div>
+<div class="border col-sm-3 tinos">tinos</div>
+<div class="border col-sm-3 neuton">neuton</div>
+<div class="border col-sm-3 ultra">ultra</div>
+</div>
+</div>
+<!--Sans Serif Fonts-->
+<div ng-switch-when="2">
+<div class="row">	
+<div class="border col-sm-3 exo2">exo2</div>
+<div class="border col-sm-3 exo">exo</div>
+<div class="border col-sm-3 jua">jua</div>
+<div class="border col-sm-3 orbitron">orbitron</div>
+<div class="border col-sm-3 viga">viga</div>
+<div class="border col-sm-3 days-one">days-one</div>
+<div class="border col-sm-3 wendy-one">wendy-one</div>
+<div class="border col-sm-3 aclonica">aclonica</div>
+<div class="border col-sm-3 mouse-memories">mouse-memories</div>
+<div class="border col-sm-3 athiti">athiti</div>
+<div class="border col-sm-3 paytone">paytone</div>
+<div class="border col-sm-3 hammersmith">hammersmith</div>
+<div class="border col-sm-3 basic">basic</div>
+<div class="border col-sm-3 archivo-black">archivo-black</div>
+<div class="border col-sm-3 russo-one">russo-one</div>
+<div class="border col-sm-3 francois">francois</div>
+<div class="border col-sm-3 acme">acme</div>
+<div class="border col-sm-3 kanit">kanit</div>
+<div class="border col-sm-3 varela-round">varela-round</div>
+<div class="border col-sm-3 fjalla">fjalla</div>
+<div class="border col-sm-3 josefin-sans">josefin-sans</div>
+<div class="border col-sm-3 anton">anton</div>
+<div class="border col-sm-3 fira-sans">fira-sans</div>
+<div class="border col-sm-3 ubuntu">ubuntu</div>
+<div class="border col-sm-3 raleway">raleway</div>
+<div class="border col-sm-3 oswald">oswald</div>
+<div class="border col-sm-3 roboto-condensed">roboto-condensed</div>
+<div class="border col-sm-3 montserrat">montserrat</div>
+<div class="border col-sm-3 open-sans">open-sans</div>
+<div class="border col-sm-3 roboto">roboto</div>
+</div>
+</div>
+<!--Display Fonts-->
+<div  ng-switch-when="3">
+<div class="row">	
+<div class="border col-sm-3 poiret-one">poiret-one</div>
+<div class="border col-sm-3 lobster-two">lobster-two</div>
+<div class="border col-sm-3 squada-one">squada-one</div>
+<div class="border col-sm-3 black-ops">black-ops</div>
+<div class="border col-sm-3 gugi">gugi</div>
+<div class="border col-sm-3 lemon">lemon</div>
+<div class="border col-sm-3 londrina-outline">londrina-outline</div>
+<div class="border col-sm-3 combo">combo</div>
+<div class="border col-sm-3 fascinate-inline">fascinate-inline</div>
+<div class="border col-sm-3 nova-round">nova-round</div>
+<div class="border col-sm-3 flamenco">flamenco</div>
+<div class="border col-sm-3 lobster">lobster</div>
+<div class="border col-sm-3 comfortaa">comfortaa</div>
+<div class="border col-sm-3 righteous">righteous</div>
+<div class="border col-sm-3 concert">concert</div>
+<div class="border col-sm-3 monoton">monoton</div>
+<div class="border col-sm-3 passion">passion</div>
+<div class="border col-sm-3 fedoreka">fedoreka</div>
+<div class="border col-sm-3 luckiest-guy">luckiest-guy</div>
+<div class="border col-sm-3 allan">allan</div>
+<div class="border col-sm-3 boogaloo">boogaloo</div>
+<div class="border col-sm-3 audio-wide">audio-wide</div>
+<div class="border col-sm-3 oleo-script">oleo-script</div>
+<div class="border col-sm-3 cabin-sketch">cabin-sketch</div>
+<div class="border col-sm-3 player2">player2</div>
+<div class="border col-sm-3 titan-one">titan-one</div>
+<div class="border col-sm-3 skranji">skranji</div>
+<div class="border col-sm-3 bungee-inline">bungee-inline</div>
+<div class="border col-sm-3 bowlby-one-sc">bowlby-one-sc</div>
+<div class="border col-sm-3 raleway-dots">raleway-dots</div>
+<div class="border col-sm-3 graduate">graduate</div>
+</div>
+</div>
+<!--Handwriting Fonts-->
+<div  ng-switch-when="4">
+<div class="row">	
+<div class="border col-sm-3 dancing-script">dancing-script</div>
+<div class="border col-sm-3 kalam">kalam</div>
+<div class="border col-sm-3 coming-soon">coming-soon</div>
+<div class="border col-sm-3 aladin">aladin</div>
+<div class="border col-sm-3 haviland">haviland</div>
+<div class="border col-sm-3 molle">molle</div>
+<div class="border col-sm-3 sunshiney">sunshiney</div>
+<div class="border col-sm-3 pacifico">pacifico</div>
+<div class="border col-sm-3 amatic-sc">amatic-sc</div>
+<div class="border col-sm-3 permanant-marker">permanant-marker</div>
+<div class="border col-sm-3 courgette">courgette</div>
+<div class="border col-sm-3 satisfy">satisfy</div>
+<div class="border col-sm-3 patcrik-hand">patcrik-hand</div>
+<div class="border col-sm-3 architect-daughter">architect-daughter</div>
+<div class="border col-sm-3 yellowtail">yellowtail</div>
+<div class="border col-sm-3 rancho">rancho</div>
+<div class="border col-sm-3 damion">damion</div>
+<div class="border col-sm-3 caveat-brush">caveat-brush</div>
+<div class="border col-sm-3 gochi-hand">gochi-hand</div>
+<div class="border col-sm-3 another-hand">another-hand</div>
+<div class="border col-sm-3 niconne">niconne</div>
+<div class="border col-sm-3 leckerli-one">leckerli-one</div>
+<div class="border col-sm-3 rochester">rochester</div>
+<div class="border col-sm-3 itim">itim</div>
+<div class="border col-sm-3 berkshire-swash">berkshire-swash</div>
+<div class="border col-sm-3 norican">norican</div>
+<div class="border col-sm-3 pangolin">pangolin</div>
+</div>
+</div>
+<!--MonoSpace Fonts-->
+<div ng-switch-when="5">
+<div class="row">	
+<div class="border col-sm-3 roboto-mono">roboto-mono</div>
+<div class="border col-sm-3 ubuntu-mono">ubuntu-mono</div>
+<div class="border col-sm-3 vt323">vt323</div>
+<div class="border col-sm-3 fira-mono">fira-mono</div>
+<div class="border col-sm-3 share-tech">share-tech</div>
+<div class="border col-sm-3 nova-mono">nova-mono</div>
+<div class="border col-sm-3 overpass-mono">overpass-mono</div>
+<div class="border col-sm-3 inconsolata">inconsolata</div>
+<div class="border col-sm-3 source">source-code</div>
+<div class="border col-sm-3 ibm-plex">ibm-plex</div>
+<div class="border col-sm-3 pt-mono">pt-mono</div>
+<div class="border col-sm-3 nanum-gothic">nanum-gothic</div>
+<div class="border col-sm-3 cousine">cousine</div>
+<div class="border col-sm-3 space-mono">space-mono</div>
+<div class="border col-sm-3 anonymous-pro">anonymous-pro</div>
+<div class="border col-sm-3 oxygen-mono">oxygen-mono</div>
+<div class="border col-sm-3 cutive-mono">cutive-mono</div>
+</div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+    <br><br><br>
+
+  <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 | dopefonts.github.io</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
